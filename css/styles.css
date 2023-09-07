@@ -67,7 +67,7 @@
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.5rem;
+  --bs-border-radius: 0.1rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.75rem;
   --bs-border-radius-xl: 1rem;
@@ -606,8 +606,8 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 0.125rem solid var(--bs-border-color);
-  border-radius: 0.5rem;
+  border: 0.1rem solid var(--bs-border-color);
+  border-radius: 0.1rem;
   max-width: 100%;
   height: auto;
 }
@@ -2775,9 +2775,9 @@ textarea.form-control-lg {
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #212529;
   --bs-btn-bg: transparent;
-  --bs-btn-border-width: 0.125rem;
+  --bs-btn-border-width: 0.1rem;
   --bs-btn-border-color: transparent;
-  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-border-radius: 0.2rem;
   --bs-btn-hover-border-color: transparent;
   --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   --bs-btn-disabled-opacity: 0.65;
@@ -2845,12 +2845,12 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-color: #808080;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #808080;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #fff;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #15967d;
@@ -4155,9 +4155,9 @@ textarea.form-control-lg {
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 0.125rem;
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: 0.5rem;
+  --bs-card-border-radius: 0.1rem;
   --bs-card-box-shadow: ;
-  --bs-card-inner-border-radius: 0.375rem;
+  --bs-card-inner-border-radius: 0.1rem;
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
@@ -5239,17 +5239,17 @@ textarea.form-control-lg {
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #fff;
+  --bs-modal-bg: #000;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0.125rem;
-  --bs-modal-border-radius: 0.75rem;
+  --bs-modal-border-radius: 0.2rem;
   --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   --bs-modal-inner-border-radius: 0.625rem;
   --bs-modal-header-padding-x: 1rem;
   --bs-modal-header-padding-y: 1rem;
   --bs-modal-header-padding: 1rem 1rem;
   --bs-modal-header-border-color: var(--bs-border-color);
-  --bs-modal-header-border-width: 0.125rem;
+  --bs-modal-header-border-width: 0.1rem;
   --bs-modal-title-line-height: 1.5;
   --bs-modal-footer-gap: 0.5rem;
   --bs-modal-footer-bg: ;
@@ -11000,7 +11000,7 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -11024,13 +11024,13 @@ html {
   padding: 1rem;
 }
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 
